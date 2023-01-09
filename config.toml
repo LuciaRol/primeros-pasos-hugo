@@ -1,0 +1,21 @@
+
+baseURL = "http://example.com/"
+languageCode = "es"
+title = "Té con gatos. Cat café"
+theme = "tale"
+
+[menu]
+  [[menu.main]]
+	identifier = "carta"
+	name = "Carta de tés"
+	title = "Carta de tés"
+	url = "/carta/"
+	weight = 0
+
+	[[menu.main]]
+	identifier = "post"
+	name = "Gatos"
+	title = "Nuestros gatos"
+	url = "primeros-pasos-hugo/content/blog/primer_post/"
+	weight = 0
+
